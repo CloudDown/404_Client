@@ -1,0 +1,51 @@
+
+*****************************************************************************************************
+Default in the autoclick : 
+
+ F7 = Autoclick
+
+ F8 = Close
+
+ F = Autopearl
+
+ G = MacroTNT 
+
+ F10 = Lag Advantage
+
+ J = Anti-AFK
+                                         
+*****************************************************************************************************
+
+
+PS : How to have the rainbow mode in the client , copy the code in the "gui404.bat"  , between "type logo.txt" and "timeout /t -1 /nobreak >NUL"
+
+The code :
+
+
+set a=0
+
+:Repeat
+color 4
+color c
+color 6
+color e
+color a
+color 2
+color 9
+color 1
+color d
+color 5
+set /a a=%a+1
+color 4
+color c
+color 6
+color e
+color a
+color 2
+color 9
+color 1
+color d
+if %a% == 100000000000000000000000000 goto Fin
+goto Repeat
+
+:Fin
