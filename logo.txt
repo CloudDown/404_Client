@@ -16,7 +16,7 @@ Cheat :
 
  [F7] = Autoclick            [F] = Macro-Pearl            [J] = Anti-AFK 
 
- [F8] = Close                 [G] = Macro-TNT             [F10] = Lag-Advantage
+ [F8] = Close                 [G] = Macro-TNT             [F10] = Clumsy
 
 -----------------------------------------------------------------------------------------------------------------------
 

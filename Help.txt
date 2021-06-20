@@ -26,25 +26,44 @@ set a=0
 
 :Repeat
 color 4
+timeout /t (50)
 color c
+timeout /t (50)
 color 6
+timeout /t (50)
 color e
+timeout /t (50)
 color a
+timeout /t (50)
 color 2
+timeout /t (50)
 color 9
+timeout /t (50)
 color 1
+timeout /t (50)
 color d
+timeout /t (50)
 color 5
 set /a a=%a+1
 color 4
+timeout /t (50)
 color c
+timeout /t (50)
 color 6
+timeout /t (50)
 color e
+timeout /t (50)
 color a
+timeout /t (50)
 color 2
+timeout /t (50)
 color 9
+timeout /t (50)
 color 1
+timeout /t (50)
 color d
+timeout /t (50)
+color 5
 if %a% == 100000000000000000000000000 goto Fin
 goto Repeat
 
